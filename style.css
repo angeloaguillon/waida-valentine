@@ -32,6 +32,11 @@ body {
     cursor: pointer;
 }
 
+#letter-cat-2 {
+  height: 200px;  /* adjust */
+  width: auto;
+}
+
 /* add this */
 #envelope-container p {
   background-color: #9a4040;  /* pick any solid color */
@@ -50,6 +55,13 @@ body {
     inset: 0;
     justify-content: center;
     align-items: center;
+}
+
+.cat-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .letter-window{
