@@ -79,14 +79,15 @@ noBtn.addEventListener("mouseover", () => {
 
 // YES is clicked
 
+const catImg2 = document.getElementById("letter-cat-2");
+
 yesBtn.addEventListener("click", () => {
-    title.textContent = "YAYAYAYAYAYAYAYA!!!";
+  title.textContent = "YAYAYAYAYAYAYAYA!!!";
 
-    catImg.src = "cat_dance.gif";
+  catImg.src = "cat_dance.gif";
+  catImg2.style.display = "block"; // show second cat
 
-    document.querySelector(".letter-window").classList.add("final");
-
-    buttons.style.display = "none";
-
-    finalText.style.display = "block";
+  document.querySelector(".letter-window").classList.add("final");
+  buttons.style.display = "none";
+  finalText.style.display = "block";
 });
